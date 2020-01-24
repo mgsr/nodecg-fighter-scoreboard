@@ -178,12 +178,14 @@
 	
 	p1info.on('change', (newValue, oldValue) => {
 		p1named.text = newValue[0];
-		p1flag.src = "flags/" + newValue[1] + ".svg";
+		//p1flag.src = "flags/" + newValue[1] + ".svg";
+		p1flag.src = "flags/" + newValue[1] + ".png";
 	});
 
 	p2info.on('change', (newValue, oldValue) => {
 		p2named.text = newValue[0];
-		p2flag.src = "flags/" + newValue[1] + ".svg";
+		//p2flag.src = "flags/" + newValue[1] + ".svg";
+		p1flag.src = "flags/" + newValue[1] + ".png";
 	});
 
 	stage.on('change', (newValue, oldValue) => {
